@@ -1,0 +1,157 @@
+/* Background ya church - navy blue + gradient */
+.hero-section {
+  min-height: 60vh;
+  background: linear-gradient(to bottom, #0a0f24, #111827);
+  padding-top: 40px;
+}
+
+/* Gold theme */
+.gold-text {
+  color: #d4af37 !important;
+}
+
+/* Gold cards */
+.gold-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  border-left: 6px solid #d4af37;
+  transition: 0.3s ease;
+}
+
+/* Hover Zoom Animation */
+.zoom:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
+}
+
+/* Fade-in animations */
+.fade-in {
+  opacity: 0;
+  animation: fade 1.3s forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.4s;
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth card animation */
+.gold-card:hover {
+  border-left-color: #f8d24b;
+}
+
+.gold-text {
+  color: #d4af37 !important;
+}
+
+.text-gold {
+  color: #d4af37 !important;
+  transition: 0.3s;
+}
+
+.text-gold:hover {
+  color: #f8d24b !important;
+}
+
+/* Text shadow for hero headings */
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Fade-in for About page cards */
+.fade-in {
+  opacity: 0;
+  animation: fade 1.3s forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.4s;
+}
+
+
+/* Gold button */
+.btn-gold {
+  background-color: #d4af37;
+  color: #000;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-gold:hover {
+  background-color: #f8d24b;
+  color: #000;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 20px;
+  }
+}
+
+
+/* Gold text for navbar links */
+.gold-text {
+  color: #d4af37 !important;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #d4af37;
+}
+
+/* Navbar hover effect */
+.nav-link:hover {
+  color: #f8d24b !important;
+}
+/* Gold text for navbar links */
+.gold-text {
+  color: #d4af37 !important;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #d4af37;
+}
+
+/* Navbar hover effect */
+.nav-link:hover {
+  color: #f8d24b !important;
+}
+/* Footer styling */
+.footer {
+  background-color: #0a0f24;
+  color: #d4af37;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #d4af37;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #f8d24b;
+}
+
+
+/* Additional utility classes */
+.text-center {
+  text-align: center;
+}
+
+/* styles.css */
+body {
+  padding-top: 80px;
+}
+main {
+  padding-top: 80px;
+}

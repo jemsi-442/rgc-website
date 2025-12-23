@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Ibada ya Vijana Kitaifa",
+    "date": "12 Feb 2025",
+    "description": "Ibada ya vijana imefanyika katika Kanisa la RGC Makongo ikiwa na lengo la kuimarisha imani ya vijana na kuwajenga kiroho.",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 2,
+    "title": "Kongamano la Maombi",
+    "date": "28 Mar 2025",
+    "description": "Kongamano la maombi limekutanisha waumini kutoka mikoa mbalimbali nchini ili kuombea taifa na familia.",
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 3,
+    "title": "Huduma ya Upendo kwa Jamii",
+    "date": "5 Apr 2025",
+    "description": "Kanisa limegawa misaada ya chakula, mavazi na huduma za afya bure kwa wakazi wa maeneo ya jirani.",
+    "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=600&q=60"
+  }
+]

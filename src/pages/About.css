@@ -1,0 +1,102 @@
+/* GOLD TEXT */
+.text-gold {
+  color: #d4af37;
+}
+
+/* HEADER SECTION */
+.about-header {
+  height: 60vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+),
+    url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=60") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 40px 20px;
+  animation: fadeFade 1.5s ease-in-out;
+}
+
+
+/* SECTION TITLES */
+.section-title-gold {
+  color: #d4af37;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* BISHOP SECTION */
+.bishop-section {
+  background: #111;
+  border-top: 3px solid #d4af37;
+  border-bottom: 3px solid #d4af37;
+  padding: 60px 0;
+  color: #f1f1f1;
+}
+
+.bishop-img {
+  border-radius: 12px;
+  border: 3px solid #d4af37;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease;
+}
+
+.bishop-img:hover {
+  transform: scale(1.03);
+}
+
+/* MAONO & DHAMIRA */
+.vision-card {
+  background: #1a1a1a;
+  color: #f1f1f1;
+  border-left: 5px solid #d4af37;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.vision-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+}
+  to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.animate-up {
+  animation: fadeUp 1s ease-out;
+}
+
+@keyframes fadeFade {
+  from {
+    opacity: 0;
+}
+  to {
+    opacity: 1;
+}
+}
+
+.animate-fade {
+  animation: fadeFade 1.2s ease-out;
+}
+
+.animate-fade-delay {
+  animation: fadeFade 1.6s ease-out;
+}

@@ -1,0 +1,72 @@
+/* HEADER */
+.leadership-header {
+  background: linear-gradient(
+      rgba(0,0,0,0.65),
+      rgba(0,0,0,0.65)
+    ),
+    url("https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=1500&q=60")
+      center/cover no-repeat;
+  height: 45vh;
+}
+
+.text-gold {
+  color: #d4af37;
+}
+
+/* FEATURED ASKOFU */
+.featured-bishop {
+  border-radius: 16px;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+/* LEADERS SECTION */
+.leaders-section {
+  background: #111;
+}
+
+.leader-card {
+  background: #000;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.leader-card:hover {
+  transform: translateY(-6px);
+}
+
+.leader-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+/* ANIMATIONS */
+.animate-up {
+  animation: rise 0.7s ease forwards;
+}
+
+.animate-fade {
+  animation: fade 1s ease forwards;
+}
+
+.animate-fade-delay {
+  animation: fade 1.5s ease forwards;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

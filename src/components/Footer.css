@@ -1,0 +1,107 @@
+/* =========================
+   FOOTER BASE
+========================= */
+.church-footer {
+  background: linear-gradient(180deg, #0b0b0b, #000000);
+  border-top: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+/* =========================
+   TEXT STYLES
+========================= */
+.text-gold {
+  color: #d4af37;
+}
+
+.church-footer h5 {
+  letter-spacing: 0.5px;
+}
+
+.church-footer p {
+  color: #bfbfbf;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* =========================
+   SOCIAL LINKS
+========================= */
+.social-link {
+  color: #d4af37;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 
+    transform 0.25s ease,
+    color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.social-link:hover {
+  color: #ffffff;
+  transform: translateY(-4px) scale(1.05);
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+}
+
+/* Platform-specific hover glow (optional but premium) */
+.social-link.facebook:hover {
+  color: #1877f2;
+}
+
+.social-link.instagram:hover {
+  color: #e1306c;
+}
+
+.social-link.tiktok:hover {
+  color: #ffffff;
+}
+
+.social-link.youtube:hover {
+  color: #ff0000;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.church-footer .btn {
+  border-radius: 30px;
+  padding: 0.45rem 1.2rem;
+  font-size: 0.85rem;
+}
+
+.church-footer .btn-outline-light:hover {
+  background-color: #d4af37;
+  border-color: #d4af37;
+  color: #000;
+}
+
+/* =========================
+   LOCATION ICON
+========================= */
+.location-icon {
+  font-size: 2.5rem;
+  color: #d4af37;
+}
+
+/* =========================
+   FOOTER BOTTOM
+========================= */
+.footer-bottom {
+  background: #000;
+  font-size: 0.85rem;
+  color: #aaa;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .church-footer {
+    text-align: center;
+  }
+
+  .church-footer .d-flex {
+    justify-content: center;
+  }
+}

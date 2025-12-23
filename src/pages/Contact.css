@@ -1,0 +1,78 @@
+.contact-header {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=1600&q=60")
+      center/cover no-repeat;
+  min-height: 50vh;
+}
+
+.text-gold {
+  color: #d4af37;
+}
+
+.contact-card {
+  border-radius: 15px;
+  background: #fff;
+}
+
+.contact-card a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  color: #d4af37;
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+  color: #d4af37;
+}
+
+.contact-icon.whatsapp {
+  color: #25d366;
+}
+
+.location-section {
+  background: #111;
+}
+
+.location-icon {
+  font-size: 3rem;
+  color: #d4af37;
+}
+
+/* ANIMATIONS */
+.animate-fade {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-fade-delay {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.animate-up {
+  animation: slideUp 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

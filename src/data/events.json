@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Ibada ya Vijana Kitaifa",
+    "date": "2025-12-15",
+    "description": "Ibada ya vijana ili kuimarisha imani ya vijana na kuwatia moyo kiroho.",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 2,
+    "title": "Kongamano la Maombi",
+    "date": "2025-11-10",
+    "description": "Kongamano la maombi limewaleta pamoja waumini kutoka mikoa mbalimbali.",
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    "id": 3,
+    "title": "Huduma ya Upendo kwa Jamii",
+    "date": "2025-11-20",
+    "description": "Kanisa limegawa misaada ya chakula, mavazi na huduma za afya bure kwa wakazi wa jirani.",
+    "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=600&q=60"
+  }
+]
